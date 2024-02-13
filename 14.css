@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'BadScript'; 
+	src: url('BadScript-Regular.ttf');
+}
+
+body {
+    background-color: rgba(255, 4, 205, 0.1);
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    margin: 30px 72px 0 0;
+}
+
+.container {
+    margin: 0 0 0 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span {
+    margin-top: 20px;
+    font-family: BadScript;
+    font-size: 120px;
+}
+
+canvas {
+    margin: 0 100px;
+}
